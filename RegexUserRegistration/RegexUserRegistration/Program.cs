@@ -36,10 +36,23 @@ namespace RegexUserRegistration
             //}
 
             //UR5
+            //Console.Write("Enter The Password:");
+            //String pass = Console.ReadLine();
+
+            //if (Password8Char.validate(pass))
+            //{
+            //    Console.WriteLine("Valid");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid");
+            //}
+
+            //UR6
             Console.Write("Enter The Password:");
             String pass = Console.ReadLine();
 
-            if (Password8Char.validate(pass))
+            if (Password_1_Uppercase.validate(pass))
             {
                 Console.WriteLine("Valid");
             }
