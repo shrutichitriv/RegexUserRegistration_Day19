@@ -13,9 +13,14 @@ namespace RegexUserRegistration
             //Validation.FirstNameValidation(FirstName);//Calling method to validate firstname
 
             //UR2
-            Console.WriteLine("Enter your Last name");
-            string LName = Console.ReadLine(); //  input for last name
-            LastName.LastNameValidation(LName);
+            //Console.WriteLine("Enter your Last name");
+            //string LName = Console.ReadLine(); //  input for last name
+            //LastName.LastNameValidation(LName);
+
+            //UR3
+            Console.WriteLine("\n\nEnter your email name : ");
+            string email = Console.ReadLine();
+            bool checkEmail = Email.EmailValidation(email); //Calling method to check email 
 
         }
     }
