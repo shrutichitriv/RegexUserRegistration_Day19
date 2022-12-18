@@ -18,10 +18,22 @@ namespace RegexUserRegistration
             //LastName.LastNameValidation(LName);
 
             //UR3
-            Console.WriteLine("\n\nEnter your email name : ");
-            string email = Console.ReadLine();
-            bool checkEmail = Email.EmailValidation(email); //Calling method to check email 
+            //Console.WriteLine("\n\nEnter your email name : ");
+            //string email = Console.ReadLine();
+            //bool checkEmail = Email.EmailValidation(email); //Calling method to check email 
 
+            //UR4
+            Console.Write("Enter The Mobile Number:");
+            String mob = Console.ReadLine();
+
+            if (MobileNumber.validate(mob))
+            {
+                Console.WriteLine("Valid Data");
+            }
+            else
+            {
+                Console.WriteLine("Invalid Data");
+            }
         }
     }
 }
