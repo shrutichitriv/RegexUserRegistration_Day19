@@ -62,10 +62,23 @@ namespace RegexUserRegistration
             //}
 
             //UR7
+            //Console.Write("Enter The Password:");
+            //String pass = Console.ReadLine();
+
+            //if (Password_1_Number.validate(pass))
+            //{
+            //    Console.WriteLine("Valid");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid");
+            //}
+
+            //UR8
             Console.Write("Enter The Password:");
             String pass = Console.ReadLine();
 
-            if (Password_1_Number.validate(pass))
+            if (Atleast_1_SpecialCharacter.validate(pass))
             {
                 Console.WriteLine("Valid");
             }
@@ -73,6 +86,7 @@ namespace RegexUserRegistration
             {
                 Console.WriteLine("Invalid");
             }
+
         }
     }
 }
